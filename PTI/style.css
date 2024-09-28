@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo{
+    width: 1320px;
+    margin: 0 auto  ;
+    border: dotted 2px #000;
+}
+.cabecalho{
+    height: 120px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #DBDBDBDB 100%);
+}
+
+.cabecalho .conteudo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cabecalho .conteudo .logo{
+    width: 165px;
+}
+
+.cabecalho .conteudo .menus ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+/*Menu*/
+.menu{
+    display: flex;
+    height: 60px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #DBDBDBDB 100%);
+}
+
+.menu .conteudo{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
+    flex-basis: 100%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #003c9A;
+    font-weight: 450;
+    padding: 20px;
+}
+
+.menu ul li a:hover{
+    background-color: white;
+    color: #428aff;
+}
+
+/*Banner*/
+
+.banner img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+    
+/*Noticias e Competencias*/
+
+.noticias-competencias{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00315e  0%,#000825 100%);
+}
+
+.noticias-competencias h2{
+    color: white;
+    font-weight: 900;
+    margin-top: 80px;
+    font-size: 30px;
+
+}
+
+.conteudo-noticias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-noticias{
+    flex-basis: 24%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border:solid 1px #0082c4;
+    padding-bottom: 20px;
+    
+}
+
+.card-noticias .card-noticias-imagem{
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-noticias .card-noticias-data{
+    color:#97cfff;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #023362ba;
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    
+    
+    
+}
+
+.card-noticias-imagem img{
+    width: 100%;
+}
+
+.card-noticias .card-noticias-imagem:hover img{
+    transform: scale(1.2);
+    transition: all 0.4s ease-out;
+
+}
+
+
+
+.card-noticias-texto{
+    padding: 20px;
+    line-height: 22px;
+    color: #003c6a;
+    font-weight: 100;
+    justify-content: row ;
+}
+
+.card-noticias .leia-mais .btn{
+    background: #DBDBDBDB;
+    padding: 5px 10px;
+    border-radius: 15px;
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 100;
+    font-size: 15px;
+
+}
+    
